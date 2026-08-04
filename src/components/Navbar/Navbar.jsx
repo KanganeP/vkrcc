@@ -120,7 +120,7 @@ export default function Navbar() {
       <Drawer anchor="right" open={open} onClose={() => setOpen(false)}>
         <Box sx={{ width: 260, pt: 2 }} role="presentation">
           <Typography sx={{ px: 3, py: 1, fontFamily: '"Poppins", sans-serif', fontWeight: 800 }}>
-            APEXCON <Box component="span" sx={{ color: 'primary.main' }}>RCC</Box>
+            VK<Box component="span" sx={{ color: 'primary.main' }}>RCC</Box>
           </Typography>
           <Divider sx={{ my: 1 }} />
           <List>

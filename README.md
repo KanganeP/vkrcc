@@ -1,4 +1,4 @@
-# ApexCon RCC — Construction Company Website
+# VK RCC — Construction Company Website
 
 A full multi-page React JS + Material UI website for an RCC/civil
 construction company, built with React Router, Framer Motion, and

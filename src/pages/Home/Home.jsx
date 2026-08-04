@@ -26,7 +26,7 @@ const WHY_US = [
 
 export default function Home() {
   useEffect(() => {
-    document.title = 'ApexCon RCC | RCC & Civil Construction Company in Mumbai';
+    document.title = 'VK RCC | RCC & Civil Construction Aigency in Nashik';
   }, []);
 
   return (
@@ -58,7 +58,7 @@ export default function Home() {
                 <Box
                   component="img"
                   src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=1200"
-                  alt="ApexCon RCC construction site"
+                  alt="VK RCC construction site"
                   loading="lazy"
                   sx={{ width: '100%', borderRadius: 2, boxShadow: 4 }}
                 />
