@@ -6,6 +6,7 @@ import {
 import { NavLink, Link as RouterLink, useLocation } from 'react-router-dom';
 import { FaBars, FaSun, FaMoon, FaPhoneAlt } from 'react-icons/fa';
 import { useColorMode } from '../../hooks/useDarkMode.jsx';
+import logo from "../../assets/images/vkrcc-logo.png";
 
 const LINKS = [
   { label: 'Home', to: '/' },
@@ -46,10 +47,29 @@ export default function Navbar() {
       >
         <Container maxWidth="lg">
           <Toolbar disableGutters sx={{ py: 1.2, justifyContent: 'space-between' }}>
-            <Box component={RouterLink} to="/" sx={{ display: 'flex', alignItems: 'center', gap: 1, textDecoration: 'none' }}>
-              <Box sx={{ width: 12, height: 12, bgcolor: 'primary.main', transform: 'rotate(45deg)' }} />
+            <Box
+              component={RouterLink}
+              to="/"
+              sx={{
+                display: "flex",
+                alignItems: "center",
+                gap: 1.5,
+                textDecoration: "none",
+              }}
+            >
+              <Box
+                component="img"
+                src={logo}
+                alt="VKRCC Logo"
+                sx={{
+                  height: 50,
+                  width: 50,
+                  borderRadius: "50%",
+                }}
+              />
+
               <Typography sx={{ fontFamily: '"Poppins", sans-serif', fontWeight: 800, fontSize: '1.15rem', color: solid ? 'text.primary' : '#fff' }}>
-                APEXCON <Box component="span" sx={{ color: 'primary.main' }}>RCC</Box>
+                VK<Box component="span" sx={{ color: 'primary.main' }}>RCC</Box>
               </Typography>
             </Box>
 

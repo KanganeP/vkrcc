@@ -64,7 +64,7 @@ export default function Contact() {
               <Stack spacing={2.5}>
                 {[
                   [FaMapMarkerAlt, 'Office Address', '204, Sai Chambers, Andheri East, Mumbai 400069'],
-                  [FaPhoneAlt, 'Phone', '+91 98200 00000'],
+                  [FaPhoneAlt, 'Phone', '+91 982677589'],
                   [FaEnvelope, 'Email', 'contact@apexconrcc.in'],
                   [FaClock, 'Office Hours', 'Mon – Sat, 9:00 AM – 6:30 PM'],
                 ].map(([Icon, label, value]) => (
@@ -81,7 +81,7 @@ export default function Contact() {
 
                 <Stack direction="row" spacing={1.5}>
                   <Button
-                    href="https://wa.me/919820000000"
+                    href="https://wa.me/919822677589"
                     target="_blank"
                     rel="noopener noreferrer"
                     variant="contained"
