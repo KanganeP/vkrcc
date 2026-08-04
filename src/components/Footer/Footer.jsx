@@ -1,6 +1,7 @@
 import { Box, Container, Grid, Typography, Stack, IconButton, Divider } from '@mui/material';
 import { Link as RouterLink } from 'react-router-dom';
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
+import logo from "../../assets/images/vkrcc-logo.png";
 
 export default function Footer() {
   return (
@@ -9,7 +10,27 @@ export default function Footer() {
         <Grid container spacing={5}>
           <Grid item xs={12} md={4}>
             <Typography sx={{ fontFamily: '"Poppins", sans-serif', fontWeight: 800, fontSize: '1.2rem', mb: 2 }}>
-              APEXCON <Box component="span" sx={{ color: 'primary.main' }}>RCC</Box>
+              <Box
+                component={RouterLink}
+                to="/"
+                sx={{
+                  display: "flex",
+                  alignItems: "center",
+                  textDecoration: "none",
+                }}
+              >
+                <Box
+                  component="img"
+                  src={logo}
+                  alt="VKRCC Logo"
+                  sx={{
+                    height: 55,
+                    width: "auto",
+                    objectFit: "contain",
+                  }}
+                />
+              </Box>
+              VK<Box component="span" sx={{ color: 'primary.main' }}>RCC</Box>
             </Typography>
             <Typography sx={{ color: 'rgba(245,245,245,0.7)', fontSize: '0.9rem', lineHeight: 1.7, mb: 3 }}>
               RCC and civil construction contractors serving Mumbai and Navi
