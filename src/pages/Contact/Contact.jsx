@@ -63,9 +63,9 @@ export default function Contact() {
             <Grid item xs={12} md={5}>
               <Stack spacing={2.5}>
                 {[
-                  [FaMapMarkerAlt, 'Office Address', '204, Sai Chambers, Andheri East, Mumbai 400069'],
-                  [FaPhoneAlt, 'Phone', '+91 982677589'],
-                  [FaEnvelope, 'Email', 'contact@apexconrcc.in'],
+                  [FaMapMarkerAlt, 'Office Address', '1st. floor, Sathe baug, Above Dairy Don ice cream Shop M.G. Road, Nashik - 422001'],
+                  [FaPhoneAlt, 'Phone', '+91 98267 7589'],
+                  [FaEnvelope, 'Email', 'er.vijaykangane@gmail.com'],
                   [FaClock, 'Office Hours', 'Mon – Sat, 9:00 AM – 6:30 PM'],
                 ].map(([Icon, label, value]) => (
                   <Stack direction="row" spacing={2} alignItems="flex-start" key={label}>
@@ -81,7 +81,7 @@ export default function Contact() {
 
                 <Stack direction="row" spacing={1.5}>
                   <Button
-                    href="https://wa.me/919822677589"
+                    href="https://wa.me/91982677589"
                     target="_blank"
                     rel="noopener noreferrer"
                     variant="contained"
@@ -103,7 +103,7 @@ export default function Contact() {
             </Grid>
           </Grid>
 
-          <Box sx={{ mt: 6 }}>
+          {/* <Box sx={{ mt: 6 }}>
             <Box
               component="iframe"
               title="Office location map"
@@ -111,7 +111,7 @@ export default function Contact() {
               loading="lazy"
               sx={{ width: '100%', height: 360, border: 0, borderRadius: 2 }}
             />
-          </Box>
+          </Box> */}
         </Container>
       </Box>
 

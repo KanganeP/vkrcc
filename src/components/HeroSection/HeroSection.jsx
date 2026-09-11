@@ -23,7 +23,7 @@ export default function HeroSection() {
           transition={{ duration: 0.7 }}
         >
           <Typography variant="overline" sx={{ color: 'primary.main', fontWeight: 600 }}>
-            RCC &amp; Civil Construction Contractors — Mumbai
+            RCC Designer — Nashik
           </Typography>
           <Typography
             variant="h1"
@@ -33,7 +33,7 @@ export default function HeroSection() {
           </Typography>
           <Typography sx={{ color: 'rgba(245,245,245,0.85)', fontSize: '1.05rem', maxWidth: 560, mb: 4, lineHeight: 1.7 }}>
             From foundation to finish, we deliver residential, commercial, and
-            industrial RCC construction across Mumbai — engineered, tested,
+            industrial RCC construction across Maharashtra — engineered, tested,
             and handed over on schedule.
           </Typography>
           <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2}>
