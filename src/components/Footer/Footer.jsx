@@ -33,8 +33,7 @@ export default function Footer() {
               VK<Box component="span" sx={{ color: 'primary.main' }}>RCC</Box>
             </Typography>
             <Typography sx={{ color: 'rgba(245,245,245,0.7)', fontSize: '0.9rem', lineHeight: 1.7, mb: 3 }}>
-              RCC and civil construction contractors serving Mumbai and Navi
-              Mumbai since 2008. Structural work, finishing, and turnkey
+              RCC design serving maharashtra since 2000. Structural work, finishing, and turnkey
               projects delivered by our own crews.
             </Typography>
             <Stack direction="row" spacing={1}>
@@ -72,7 +71,7 @@ export default function Footer() {
           <Grid item xs={6} md={3}>
             <Typography sx={{ fontWeight: 700, mb: 2, fontSize: '0.95rem' }}>Services</Typography>
             <Stack spacing={1}>
-              {['RCC Construction', 'Residential Construction', 'Commercial Construction', 'Renovation', 'Waterproofing'].map((s) => (
+              {['RCC Construction', 'Residential Construction', 'Commercial Construction', 'Renovation'].map((s) => (
                 <Typography
                   key={s}
                   component={RouterLink}
@@ -91,16 +90,16 @@ export default function Footer() {
               <Stack direction="row" spacing={1.5} alignItems="flex-start">
                 <FaMapMarkerAlt style={{ marginTop: 3, flexShrink: 0 }} color="#F59E0B" />
                 <Typography sx={{ color: 'rgba(245,245,245,0.7)', fontSize: '0.85rem' }}>
-                  204, Sai Chambers, Andheri East, Mumbai 400069
+                  1st. floor, Sathe baug, Above Dairy Don ice cream Shop M.G. Road, Nashik - 422001
                 </Typography>
               </Stack>
               <Stack direction="row" spacing={1.5} alignItems="center">
                 <FaPhoneAlt color="#F59E0B" />
-                <Typography sx={{ color: 'rgba(245,245,245,0.7)', fontSize: '0.85rem' }}>+91 98200 00000</Typography>
+                <Typography sx={{ color: 'rgba(245,245,245,0.7)', fontSize: '0.85rem' }}>+91 98267 7589</Typography>
               </Stack>
               <Stack direction="row" spacing={1.5} alignItems="center">
                 <FaEnvelope color="#F59E0B" />
-                <Typography sx={{ color: 'rgba(245,245,245,0.7)', fontSize: '0.85rem' }}>contact@apexconrcc.in</Typography>
+                <Typography sx={{ color: 'rgba(245,245,245,0.7)', fontSize: '0.85rem' }}>er.vijaykangane@gmail.com</Typography>
               </Stack>
             </Stack>
           </Grid>
@@ -110,11 +109,11 @@ export default function Footer() {
 
         <Stack direction={{ xs: 'column', sm: 'row' }} justifyContent="space-between" alignItems="center" spacing={1}>
           <Typography sx={{ color: 'rgba(245,245,245,0.5)', fontSize: '0.78rem' }}>
-            © {new Date().getFullYear()} ApexCon RCC Constructions. All rights reserved.
+            © {new Date().getFullYear()} VK RCC Constructions. All rights reserved.
           </Typography>
-          <Typography sx={{ color: 'rgba(245,245,245,0.5)', fontSize: '0.78rem' }}>
+          {/* <Typography sx={{ color: 'rgba(245,245,245,0.5)', fontSize: '0.78rem' }}>
             MahaRERA Registered · ISO 9001:2015 Certified
-          </Typography>
+          </Typography> */}
         </Stack>
       </Container>
     </Box>

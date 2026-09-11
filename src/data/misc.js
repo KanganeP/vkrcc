@@ -57,8 +57,8 @@ export const processSteps = [
 ];
 
 export const stats = [
-  { value: '18+', label: 'Years in Business' },
-  { value: '240+', label: 'Structures Delivered' },
+  { value: '23+', label: 'Years in Business' },
+  { value: '2500+', label: 'Structures Delivered' },
   { value: '95%', label: 'Repeat / Referral Clients' },
   { value: '0', label: 'Site Safety Fatalities' },
 ];

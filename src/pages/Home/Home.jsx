@@ -18,15 +18,17 @@ import { blogs } from '../../data/blogs.js';
 import { stats, processSteps } from '../../data/misc.js';
 
 const WHY_US = [
-  'Own crews — no subcontractor handoffs',
-  'In-house cube testing lab',
-  'Fixed quotes, no mid-project surprises',
-  'Licensed structural engineers on every site',
+  'Engineering Expertise — Years of practical structural design experience.',
+  'Safe & Practical Design — Structures designed with safety, functionality, and constructability in mind.',
+  'Economical Solutions — Optimized structural designs without compromising safety.',
+  'On-Time Delivery — Projects completed on schedule, with no delays.',
+  'Professional Accountability — Clear drawings, calculations, and technical guidance for every project.',
+  'Design Experience You Can Trust — From individual residential buildings to complex institutional, commercial, and specialized structures.',
 ];
 
 export default function Home() {
   useEffect(() => {
-    document.title = 'VK RCC | RCC & Civil Construction Aigency in Nashik';
+    document.title = 'VK RCC | RCC & Civil Construction Agency in Nashik';
   }, []);
 
   return (
@@ -67,8 +69,8 @@ export default function Home() {
             <Grid item xs={12} md={6}>
               <SectionHeading
                 eyebrow="Who we are"
-                title="18 years of pouring concrete that lasts"
-                subtitle="ApexCon RCC has delivered residential, commercial, and industrial structures across Mumbai and Navi Mumbai since 2008, with our own crews on every site."
+                title="23+ Years of Overall Experience in RCC"
+                subtitle="A long-standing journey in structural engineering, covering diverse building types and structural requirements."
               />
               <Stack spacing={1.5}>
                 {WHY_US.map((item) => (
@@ -89,7 +91,7 @@ export default function Home() {
       {/* Services overview */}
       <Box sx={{ py: { xs: 8, md: 11 }, bgcolor: 'background.paper' }}>
         <Container maxWidth="lg">
-          <SectionHeading eyebrow="What we do" title="Our Services" subtitle="Structural and civil construction services, from first drawing to final key." align="center" />
+          <SectionHeading eyebrow="What we do" title="Our Services" subtitle="we provide RCC structural design and engineering services for diverse building types." align="center" />
           <Grid container spacing={3}>
             {services.slice(0, 6).map((s, i) => (
               <Grid item xs={12} sm={6} md={4} key={s.id}>
@@ -127,7 +129,7 @@ export default function Home() {
       {/* Construction process preview */}
       <Box sx={{ py: { xs: 8, md: 11 }, bgcolor: '#1F2937' }}>
         <Container maxWidth="lg">
-          <SectionHeading eyebrow="How we work" title="Our Construction Process" light align="center" />
+          <SectionHeading eyebrow="How we work" title="Our RCC Design Process" light align="center" />
           <Grid container spacing={2}>
             {processSteps.slice(0, 4).map((step, i) => (
               <Grid item xs={6} md={3} key={step.title}>

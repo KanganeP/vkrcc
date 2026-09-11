@@ -19,12 +19,12 @@ export default function About() {
       {/* Story / Vision / Mission */}
       <Box sx={{ py: { xs: 6, md: 9 } }}>
         <Container maxWidth="lg">
-          <SectionHeading eyebrow="Our story" title="About ApexCon RCC" subtitle="Founded in 2008, built on a simple idea: keep the crews, testing, and accountability in-house." />
+          <SectionHeading eyebrow="Our story" title="About VK RCC" subtitle="Founded in 2000, VK RCC is built on a simple idea: keep the design expertise, technical accountability, and project experience in-house." />
           <Grid container spacing={4}>
             {[
-              ['Our Story', 'Started with a single residential contract in Andheri, ApexCon RCC has grown into a full-service RCC and civil construction contractor across Mumbai and Navi Mumbai, without ever outsourcing our core structural crews.'],
-              ['Our Vision', 'To be the most trusted structural contractor in the Mumbai Metropolitan Region — known for work that needs no repeat visits.'],
-              ['Our Mission', 'Deliver every structure to drawing tolerance, on schedule, with quality testing the client can see and keep.'],
+              ['Our Story', 'Our journey began with 16 years of valuable professional experience working as a Design Engineer with the firm of Mr. Shailesh P. Dhumne in Nashik. During this time, we gained extensive hands-on experience in structural design and worked on a wide variety of projects, including residential and commercial buildings, educational institutions, factory sheds, sports complexes, retaining walls, box culverts, slab culverts, hospitals, community halls, marriage halls, and other specialized structures. Our experience includes projects such as Pathardi School, Mhasrul School, Chehadi School, Gandhinagar Sports Complex, and various RCC structures for Nashik Municipal Corporation, along with projects associated with HAL Ozar. After building a strong foundation of technical knowledge and practical project experience, we established ApexCon RCC as an independent firm, bringing our accumulated expertise into our own practice. Today, ApexCon RCC provides structural design and RCC engineering solutions for residential, commercial, institutional, industrial, and other specialized projects across Maharashtra, with experience spanning Nashik, Pune, Thane, Amravati, Dhule, and Ahmednagar. Our journey is built on one principle: experience first, independence next, and quality always.'],
+              ['Our Vision', 'To become one of the most trusted RCC and structural engineering firms in Maharashtra, recognized for technically sound designs, dependable execution, quality workmanship, and structures built for long-term performance.'],
+              ['Our Mission', 'To deliver safe, economical, and durable structural solutions through experienced engineering, careful planning, quality-controlled construction, and professional project execution. We aim to ensure that every project is designed and executed with attention to structural safety, construction quality, accuracy, timelines, and client requirements.'],
             ].map(([title, text]) => (
               <Grid item xs={12} md={4} key={title}>
                 <Paper elevation={0} sx={{ p: 3, border: '1px solid', borderColor: 'divider', height: '100%' }}>
